@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Maincpp">
+      <UniqueIdentifier>{0d6cd740-d209-4538-a8cb-2c3925dcd2bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -28,6 +31,12 @@
     </ClInclude>
     <ClInclude Include="..\include\learnopengl\shader_s.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maincpp\4.1.textures.h">
+      <Filter>Maincpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Maincpp\4.2.textures_combined.h">
+      <Filter>Maincpp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

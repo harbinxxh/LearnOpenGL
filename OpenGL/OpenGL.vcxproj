@@ -146,9 +146,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\learnopengl\camera.h" />
+    <ClInclude Include="..\include\learnopengl\mesh.h" />
+    <ClInclude Include="..\include\learnopengl\model.h" />
+    <ClInclude Include="..\include\learnopengl\shader.h" />
     <ClInclude Include="..\include\learnopengl\shader_s.h" />
     <ClInclude Include="Maincpp\4.1.textures.h" />
     <ClInclude Include="Maincpp\4.2.textures_combined.h" />
+    <ClInclude Include="Maincpp\6.pbr_1.1.lighting_lighting.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>

@@ -38,6 +38,21 @@
     <ClInclude Include="Maincpp\4.2.textures_combined.h">
       <Filter>Maincpp</Filter>
     </ClInclude>
+    <ClInclude Include="Maincpp\6.pbr_1.1.lighting_lighting.h">
+      <Filter>Maincpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1.1.pbr.fs">

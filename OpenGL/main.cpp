@@ -1,17 +1,19 @@
 
-
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
 // 纹理
 // 加载与创建纹理
 // /1.getting_started / 4.1.textures / textures.cpp
-#include "Maincpp/4.1.textures.h"
+//#include "Maincpp/4.1.textures.h"
 
 // /1.getting_started/4.2.textures_combined/textures_combined.cpp
 // 添加两个纹理贴图
-//#include "Maincpp/4.2.textures_combined.h"
+#include "Maincpp/4.2.textures_combined.h"
 
 
 
-
+// pbr
+//#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
 
 
 

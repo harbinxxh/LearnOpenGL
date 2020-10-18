@@ -8,12 +8,12 @@
 
 // /1.getting_started/4.2.textures_combined/textures_combined.cpp
 // 添加两个纹理贴图
-#include "Maincpp/4.2.textures_combined.h"
+//#include "Maincpp/4.2.textures_combined.h"
 
 
 
 // pbr
-//#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
+#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
 
 
 

@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\include;$(SolutionDir)\resources;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -154,11 +154,14 @@
     <ClInclude Include="Maincpp\4.1.textures.h" />
     <ClInclude Include="Maincpp\4.2.textures_combined.h" />
     <ClInclude Include="Maincpp\6.pbr_1.1.lighting_lighting.h" />
+    <ClInclude Include="Maincpp\6.pbr_1.2.lighting_textured.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="1.1.pbr.fs" />
     <None Include="1.1.pbr.vs" />
+    <None Include="1.2.pbr.fs" />
+    <None Include="1.2.pbr.vs" />
     <None Include="3.3.shader.fs" />
     <None Include="3.3.shader.vs" />
     <None Include="4.1.texture.fs" />

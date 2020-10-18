@@ -11,9 +11,14 @@
 //#include "Maincpp/4.2.textures_combined.h"
 
 
+/*
+ PBR
+ */
+// 6.pbr_1.1.lighting_lighting
+//#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
 
-// pbr
-#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
+// 6.pbr_1.2.lighting_textured
+#include "Maincpp/6.pbr_1.2.lighting_textured.h"
 
 
 

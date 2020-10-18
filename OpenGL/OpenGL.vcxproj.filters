@@ -53,6 +53,9 @@
     <ClInclude Include="..\include\learnopengl\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Maincpp\6.pbr_1.2.lighting_textured.h">
+      <Filter>Maincpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1.1.pbr.fs">
@@ -77,6 +80,12 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="4.2.texture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1.2.pbr.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1.2.pbr.vs">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

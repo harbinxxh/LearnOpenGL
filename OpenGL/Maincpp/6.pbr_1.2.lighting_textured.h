@@ -89,11 +89,11 @@ int main()
 
     // load PBR material textures
     // --------------------------
-    std::string albedo_png = "resources/textures/pbr/rusted_iron/rustediron2_albedo.png";
-    std::string normal_png = "resources/textures/pbr/rusted_iron/rustediron2_normal.png";
-    std::string metallic_png = "resources/textures/pbr/rusted_iron/rustediron2_metallic.png";
-    std::string roughness_png = "resources/textures/pbr/rusted_iron/rustediron2_roughness.png";
-    std::string ao_png = "resources/textures/pbr/rusted_iron/rustediron2_ao.png";
+    std::string albedo_png = "../resources/textures/pbr/rusted_iron/albedo.png";
+    std::string normal_png = "../resources/textures/pbr/rusted_iron/normal.png";
+    std::string metallic_png = "../resources/textures/pbr/rusted_iron/metallic.png";
+    std::string roughness_png = "../resources/textures/pbr/rusted_iron/roughness.png";
+    std::string ao_png = "../resources/textures/pbr/rusted_iron/ao.png";
     unsigned int albedo    = loadTexture(albedo_png.c_str());
     unsigned int normal    = loadTexture(normal_png.c_str());
     unsigned int metallic  = loadTexture(metallic_png.c_str());

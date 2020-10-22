@@ -81,7 +81,10 @@ int main()
 	Shader shader("1.1.pbr.vs", "1.1.pbr.fs");
 
 	shader.use();
-	shader.setVec3("albedo", 0.5f, 0.0f, 0.0f);
+	//shader.setVec3("albedo", 1.0f, 0.0f, 0.0f);
+	shader.setVec3("albedo", 0.09758f, 0.0843f, 0.07618f);//道路灰色
+	//shader.setVec3("albedo", 0.75f, 0.75f, 0.75f);//灰白
+	//shader.setVec3("albedo", 0.1980f, 0.1094f, 0.0015f);//黄橙色
 	shader.setFloat("ao", 1.0f);
 
 	// lights

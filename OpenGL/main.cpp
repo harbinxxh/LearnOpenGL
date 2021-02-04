@@ -1,4 +1,6 @@
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 // 纹理
@@ -10,6 +12,11 @@
 // 添加两个纹理贴图
 //#include "Maincpp/4.2.textures_combined.h"
 
+//光照-多光源
+#include "Maincpp/2.6.multiple_lights.cpp.h"
+
+//添加模型
+//#include "3.model_loading/model_loading.cpp.h"
 
 /*
  PBR
@@ -18,7 +25,7 @@
 //#include "Maincpp/6.pbr_1.1.lighting_lighting.h"
 
 // 6.pbr_1.2.lighting_textured
-#include "Maincpp/6.pbr_1.2.lighting_textured.h"
+//#include "Maincpp/6.pbr_1.2.lighting_textured.h"
 
 
 

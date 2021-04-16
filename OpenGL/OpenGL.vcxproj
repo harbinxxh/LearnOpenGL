@@ -161,6 +161,7 @@
     <ClInclude Include="Maincpp\4.2.textures_combined.h" />
     <ClInclude Include="Maincpp\6.pbr_1.1.lighting_lighting.h" />
     <ClInclude Include="Maincpp\6.pbr_1.2.lighting_textured.h" />
+    <ClInclude Include="Maincpp\ConvertVertices.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>

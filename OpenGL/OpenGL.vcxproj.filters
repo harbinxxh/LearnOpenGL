@@ -65,6 +65,9 @@
     <ClInclude Include="3.model_loading\model_loading.cpp.h">
       <Filter>3.model_loading</Filter>
     </ClInclude>
+    <ClInclude Include="Maincpp\ConvertVertices.h">
+      <Filter>Maincpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1.1.pbr.fs">

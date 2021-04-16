@@ -3,6 +3,10 @@
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+//
+#include "Maincpp/ConvertVertices.h"
+
+
 // 纹理
 // 加载与创建纹理
 // /1.getting_started / 4.1.textures / textures.cpp
@@ -13,7 +17,7 @@
 //#include "Maincpp/4.2.textures_combined.h"
 
 //光照-多光源
-#include "Maincpp/2.6.multiple_lights.cpp.h"
+//#include "Maincpp/2.6.multiple_lights.cpp.h"
 
 //添加模型
 //#include "3.model_loading/model_loading.cpp.h"
